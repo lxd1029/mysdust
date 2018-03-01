@@ -1,0 +1,53 @@
+/* pages/buy/index.wxss */
+.bannerImg{
+    width: 100%
+}
+.userDo{
+    margin: 15rpx 0;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.useritem{
+    margin-top: 15rpx;
+    border-top: 1rpx solid #ccc;
+    padding: 15rpx;
+}
+.useritem .headImg{
+    display: flex;
+    align-items: center
+}
+.useritem .headImg image{
+    width: 90rpx;
+    height: 90rpx;
+    margin-right: 20rpx
+}
+.useritem .headImg .info .name{
+    font-size: 30rpx;
+}
+.useritem .headImg .info .time{
+    font-size: 30rpx;
+    color: #999;
+}
+.useritem .title{
+    font-size: 36rpx;
+    margin:6rpx 12rpx 6rpx 110rpx;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.useritem .con{
+    margin-left: 110rpx;
+    margin-right: 20rpx;
+    font-size: 30rpx
+}
+.useritem .img{
+    display: flex;
+    justify-content: center;
+    margin-top: 8rpx;
+    margin-left: 110rpx
+}
+.useritem .img image{
+    height: 193rpx;
+    margin-right: 12rpx
+}

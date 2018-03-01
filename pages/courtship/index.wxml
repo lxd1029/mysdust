@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view>
+    <scroll-view>
+        <view>
+            <button>我要表白</button>
+        </view>
+        <view>
+            
+        </view>
+    </scroll-view>
+</view>

@@ -1,0 +1,27 @@
+<!--pages/mine/index.wxml-->
+<view>
+    <scroll-view>
+        <view class='list mine'>
+            <image src='/images/head.png'></image>
+            <view>{}</view>
+        </view>
+        <view class='list li'>
+            <view>
+                <image src='/images/record.png'></image> 发布记录
+            </view>
+            <image class='in' src='/images/in.png'></image>
+        </view>
+        <view class='list li'>
+            <view>
+                <image src='/images/reply.png'></image> 回复列表
+            </view>
+            <image class='in' src='/images/in.png'></image>
+        </view>
+        <view class='list li'>
+            <view>
+                <image src='/images/friend.png'></image> 我的朋友
+            </view>
+            <image class='in' src='/images/in.png'></image>
+        </view>
+    </scroll-view>
+</view>

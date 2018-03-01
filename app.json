@@ -1,0 +1,38 @@
+{
+    "pages": [
+        "pages/mine/index",
+        "pages/courtship/index",
+        "pages/buy/index",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#ff436f",
+        "navigationBarTitleText": "表白墙",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "color": "#515151",
+        "selectedColor": "#ee184b",
+        "list": [
+            {
+                "pagePath": "pages/buy/index",
+                "text": "淘货",
+                "iconPath": "images/tb10.png",
+                "selectedIconPath": "images/tb11.png"
+            },
+            {
+                "pagePath": "pages/courtship/index",
+                "text": "表白墙",
+                "iconPath": "images/tb30.png",
+                "selectedIconPath": "images/tb31.png"
+            },
+            {
+                "pagePath": "pages/mine/index",
+                "text": "我的",
+                "iconPath": "images/tb20.png",
+                "selectedIconPath": "images/tb21.png"
+            }
+        ]
+    }
+}

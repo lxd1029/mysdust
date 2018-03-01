@@ -1,0 +1,31 @@
+/* pages/mine/index.wxss */
+.list{
+    display: flex;
+    align-items: center;
+    font-size: 30rpx
+}
+.mine{
+    margin: 50rpx;
+}
+.mine image{
+    width: 80rpx;
+    height: 80rpx;
+    border: solid 1rpx #ccc;
+    border-radius: 50%;
+    padding: 10rpx;
+    margin-right: 16rpx
+}
+.li image{
+    width: 50rpx;
+    height: 50rpx;
+    margin-right: 20rpx
+}
+.li{
+    padding:20rpx 50rpx;
+    border-bottom: solid 1rpx #ccc;
+    justify-content: space-between;
+}
+.li view{
+    display: flex;
+    align-items: center
+}
