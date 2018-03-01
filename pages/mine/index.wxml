@@ -2,8 +2,8 @@
 <view>
     <scroll-view>
         <view class='list mine'>
-            <image src='/images/head.png'></image>
-            <view>{}</view>
+            <image src='{{userInfo.avatarUrl}}'></image>
+            <view>{{userInfo.nickName}}</view>
         </view>
         <view class='list li'>
             <view>
